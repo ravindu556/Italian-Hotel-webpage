@@ -1,0 +1,206 @@
+body {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: rebeccapurple;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-box input[type="text"],
+.input-box input[type="email"],
+.input-box input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-box input[type="text"]:focus,
+.input-box input[type="email"]:focus,
+.input-box input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input-box img[alt="cards"] {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: darkblue;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    /* Make button take full width of its container */
+    margin-top: 30px;
+}
+
+.back {
+    background-color: darkblue;
+    /* Match button background */
+    color: #fff;
+    /* Match button text color */
+    padding: 12px 20px;
+    /* Match button padding */
+    border: none;
+    border-radius: 5px;
+    /* Match button border-radius */
+    font-size: 1.1rem;
+    /* Match button font-size */
+    cursor: pointer;
+    text-decoration: none;
+    /* Remove default link underline */
+    display: inline-block;
+    /* Or block, depending on your layout */
+    margin-top: 30px;
+    /* Match button margin-top */
+}
+
+.back:hover {
+    background-color: #0056b3;
+    /* Match button hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    display: block;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+
+/* Style for the Order Summary container */
+
+#cart-summary {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#order-summary-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+/* Style for the list of cart items */
+
+#payment-cart-items {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#payment-cart-items li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+    color: #555;
+}
+
+#payment-cart-items li:last-child {
+    border-bottom: none;
+}
+
+
+/* Style for the total price */
+
+#payment-total {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: blue;
+    /* A nice green for the total */
+    padding-top: 10px;
+    border-top: 2px solid #eee;
+}
+
+#payment-total span {
+    margin-left: 10px;
+}
+
+
+/* Responsive Layout */
+
+@media (max-width: 768px) {
+    .container {
+        margin: 15px;
+        padding: 20px;
+    }
+    .column {
+        min-width: auto;
+        flex: 1 1 100%;
+        /* Each column takes full width */
+    }
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+    }
+    .input-box {
+        margin-bottom: 15px;
+    }
+    .button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}

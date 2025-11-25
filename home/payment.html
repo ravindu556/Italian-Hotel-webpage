@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+
+    <div id="cart-summary">
+        <h2>Order Summary</h2>
+        <ul id="payment-cart-items">
+        </ul>
+        <p>Total: <span id="payment-total">$0.00</span></p>
+    </div>
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="input-box">
+                        <span>Full Name :</span>
+                        <input type="text" placeholder="Ravindu dilhara" aria-label="Full Name">
+                        <span class="error-message" id="fullNameError"></span>
+                    </div>
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="email" placeholder="ravindu@gmail.com" aria-label="Email Address">
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="input-box">
+                        <span>Address:</span>
+                        <input type="text" placeholder="agulana,colombo" aria-label="Street Address">
+                        <span class="error-message" id="addressError"></span>
+                    </div>
+                    <div class="input-box">
+                        <span>City :</span>
+                        <input type="text" placeholder="moratuwa" aria-label="City">
+                        <span class="error-message" id="cityError"></span>
+                    </div>
+                    <div class="input-box">
+                        <span>State :</span>
+                        <input type="text" placeholder="Western" aria-label="State">
+                        <span class="error-message" id="stateError"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <form action="">
+                    <div class="row">
+                        <div class="column">
+                            <h3 class="title">Payment</h3>
+                            <div class="input-box">
+                                <span>Cards Accepted :</span>
+                                <img src="Background/imgcards.png" alt="cards" aria-label="Accepted Payment Cards">
+                            </div>
+                            <div class="input-box">
+                                <span>Name On Card :</span>
+                                <input type="text" placeholder="Ravindu Edirisingha" aria-label="Name as it appears on the card">
+                                <span class="error-message" id="nameOnCardError"></span>
+                            </div>
+                            <div class="input-box">
+                                <span>Card Number:</span>
+                                <input type="number" placeholder="1111 2222 3333 4444" aria-label="Credit or Debit Card Number">
+                                <span class="error-message" id="cardNumberError"></span>
+                            </div>
+                            <div class="input-box">
+                                <span>Exp Month :</span>
+                                <input type="text" placeholder="octomber" aria-label="Card Expiration Month">
+                                <span class="error-message" id="expMonthError"></span>
+                            </div>
+                            <div class="input-box">
+                                <span>Exp Year :</span>
+                                <input type="text" placeholder="2028" aria-label="Card Expiration Year">
+                                <span class="error-message" id="expYearError"></span>
+                            </div>
+                            <div class="input-box">
+                                <span>CVN :</span>
+                                <input type="number" placeholder="111" aria-label="Card Verification Number (CVN)">
+                                <span class="error-message" id="cvnError"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="button">Proceed to Checkout</button>
+                    <a href="menu.html" class="back">back</a>
+                </form>
+            </div>
+        </form>
+        <script src="payment.js"></script>
+    </div>
+</body>
+
+</html>

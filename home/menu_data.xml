@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <category name="main">
+    <item>
+      <name>Italian Seafood Stew</name>
+      <price>$23</price>
+      <description>A hearty tomato-based stew packed with crab, shrimp, mussels, and fish, served with toasted bread..</description>
+      <image>Italian Seafood Stew.jpg</image>
+    </item>
+    <item>
+      <name>Chicken Alfredo Tortellini</name>
+      <price>$20</price>
+      <description>Plump tortellini filled with chicken and cheese, smothered in a creamy Alfredo sauce with fresh parsley.</description>
+      <image>Chicken Alfredo Tortellini.jpg</image>
+    </item>
+    <item>
+      <name>Garlic Butter Prawn Spaghetti</name>
+      <price>$21</price>
+      <description>Spaghetti coated in a luscious garlic butter sauce with succulent prawns, chili flakes, and parsley.</description>
+      <image>Garlic Butter Prawn Spaghetti.jpg</image> </item>
+    <item>
+      <name>Pepperoni pizza</name>
+      <price>$15</price>
+      <description>Spicy pepperoni slices over a rich tomato base with melted mozzarella..</description>
+      <image>Pepperoni.jpg</image> 
+      </item>
+    <item>
+      <name>cheese pizza</name>
+      <price>$12</price>
+      <description>A cheesy delight featuring mozzarella, parmesan, gorgonzola, and ricotta.</description>
+      <image>cheese.jpg</image> 
+      </item>
+       <item>
+      <name>Vegetarian Delight</name>
+      <price>$13</price>
+      <description>A colorful mix of bell peppers, onions, olives, mushrooms, and cherry tomatoes</description>
+      <image>Vegetarian Delight.jpg</image> 
+      </item>
+       <item>
+      <name>Braised Short Ribs</name>
+      <price>$25</price>
+      <description>Tender beef short ribs slow-cooked in red wine sauce, served with creamy polenta</description>
+      <image>Braised Short Ribs.jpg</image> 
+      </item>
+       <item>
+      <name>Chicken Cacciatore</name>
+      <price>$18</price>
+      <description>Braised chicken cooked with tomatoes, bell peppers, and olives for a rustic flavor.</description>
+      <image>Chicken Cacciatore.jpg</image> 
+      </item>
+       <item>
+      <name>Beef Braciole</name>
+      <price>$21</price>
+      <description>Thinly sliced beef rolled with garlic, parsley, and cheese, simmered in marinara sauce.</description>
+      <image>Beef Braciole.jpg</image> 
+      </item>
+       <item>
+      <name>Lobster Fra Diavolo</name>
+      <price>$29</price>
+      <description>Lobster tail simmered in a spicy tomato sauce, served over linguine.</description>
+      <image>Lobster Fra Diavolo.jpg</image> 
+      </item>
+       <item>
+      <name>Shrimp Scampi</name>
+      <price>$18</price>
+      <description>Succulent shrimp sautéed in garlic butter and white wine, served over angel hair pasta.</description>
+      <image>Shrimp Scampi.jpg</image> 
+      </item>
+       <item>
+      <name>Seafood Fra Diavolo</name>
+      <price>$23.99</price>
+      <description>Spaghetti loaded with mussels, clams, and calamari in a spicy tomato sauce.</description>
+      <image>Seafood Fra Diavolo.jpg</image> 
+      </item>
+  </category>
+  <category name="appetizers">
+    <item>
+      <name>bruschetta</name>
+      <price>$8</price>
+      <description>Toasted bread topped with fresh tomatoes, garlic, basil, and olive oil.</description>
+      <image>bruschetta.jpg</image>
+    </item>
+    <item>
+      <name>Caprese Salad</name>
+      <price>$6</price>
+      <description>Slices of fresh mozzarella, tomatoes, and basil, drizzled with olive oil and balsamic reduction.</description>
+      <image>Caprese Salad..jpg</image>
+    </item>
+     <item>
+      <name>Antipasto Platter</name>
+      <price>$12</price>
+      <description>A mix of cured meats, cheeses, olives, roasted peppers, and marinated vegetables.</description>
+      <image>Antipasto Platter.jpg</image>
+    </item>
+     <item>
+      <name>garlic bread</name>
+      <price>$4</price>
+      <description>crispy, buttery bread infused with garlic and herbs, sometimes topped with cheese</description>
+      <image>garlic bread1.jpg</image>
+    </item>
+    <item>
+      <name>Arancini</name>
+      <price>$8</price>
+      <description>Golden, crispy-fried risotto balls stuffed with cheese or meat.</description>
+      <image>arancini.jpg</image>
+    </item>
+  </category>
+  <category name="beverages">
+    
+    
+    <item>
+      <name>Negroni</name>
+      <price>$8</price>
+      <description>A timeless cocktail made with gin, Campari, and sweet vermouth, offering a balance of bitter and sweet.</description>
+      <image>Negroni.jpg</image>
+    </item>
+    <item>
+      <name>Espresso</name>
+      <price>$3</price>
+      <description>A strong and rich Italian coffee, served in a small cup but packed with bold flavor.</description>
+      <image>Espresso.jpg</image>
+    </item>
+    <item>
+      <name>Cappuccino</name>
+      <price>$4</price>
+      <description>A beloved Italian coffee drink, combining espresso, steamed milk, and a velvety foam topping.</description>
+      <image>Cappuccino.jpg</image>
+    </item>
+    <item>
+      <name>Bellini</name>
+      <price>$6</price>
+      <description>A delightful cocktail made with Prosecco and fresh peach purée, originating from Venice.</description>
+      <image>Bellini.jpg</image>
+    </item>
+    <item>
+      <name>CHIANTI</name>
+      <price>$23</price>
+      <description>A classic Italian red wine from Tuscany, known for its bold flavor and smooth finish.</description>
+      <image>CHIANTI.jpg</image>
+    </item>
+  </category>
+</menu>

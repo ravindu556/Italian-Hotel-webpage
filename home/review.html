@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="share-experience">
+            <h2>Share With Us</h2>
+            <form id="review-form">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email (optional)</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Your Rating *</label>
+                    <select id="rating" name="rating">
+                        <option value="">-- Select a Rating --</option>
+                        <option value="5">★★★★★ (Excellent)</option>
+                        <option value="4">★★★★☆ (Very Good)</option>
+                        <option value="3">★★★☆☆ (Good)</option>
+                        <option value="2">★★☆☆☆ (Fair)</option>
+                        <option value="1">★☆☆☆☆ (Poor)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Review Title *</label>
+                    <input type="text" id="title" name="title">
+                </div>
+
+                <div class="form-group">
+                    <label for="review-text">Review *</label>
+                    <textarea id="review-text" name="review-text" rows="5"></textarea>
+                </div>
+
+
+                <button type="submit">Submit</button>
+                <a href="index.html" class="back-button">Back</a>
+
+            </form>
+        </section>
+
+        <section class="customer-reviews">
+            <h2>What Customers Say</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>Authentic Flavors of Italy</h3>
+                    <p>"The pasta was clearly homemade, and the rich tomato sauce tasted just like Nonna used to make. The cannoli was the perfect sweet ending to a truly authentic Italian meal. We'll be back for more"</p>
+                    <p class="reviewer">- Eleanor Vance, April 5, 2025</p>
+                </div>
+
+                <div class="review-card">
+                    <h3>Wonderful Evening, Delicious Food</h3>
+                    <p>"We had a lovely evening celebrating our anniversary here. The ambiance was warm and inviting, and the staff were attentive. The seafood risotto was exquisite, and the wine selection complemented it beautifully. Highly recommend!"</p>
+                    <p class="reviewer">-Mark & Susan Davies, March 20, 2025</p>
+                </div>
+
+                <div class="review-card">
+                    <h3>Best Pizza in Town</h3>
+                    <p>"Seriously the best pizza I've had outside of Italy! The crust was perfectly crisp, and the toppings were fresh and flavorful. A great casual spot for a delicious Italian pie. Can't wait to try their pasta next."</p>
+                    <p class="reviewer">-Chris Miller, February 10, 2025</p>
+                </div>
+
+                <div class="review-card">
+                    <h3>Cozy Atmosphere, Fantastic Service</h3>
+                    <p>"This little gem has a wonderfully cozy atmosphere, perfect for a relaxed dinner. Our server was friendly and knowledgeable, offering great recommendations. The seafood was hearty and comforting. A truly enjoyable experience"</p>
+                    <p class="reviewer">- Olivia Green, January 25, 2025</p>
+                </div>
+
+                <div class="review-card">
+                    <h3>Family Favorite for Italian</h3>
+                    <p>"Our whole family loves this place! There's something for everyone, from the classic spaghetti and meatballs that my kids adore to the more sophisticated dishes my husband and I enjoy. It's become our go-to for Italian night!"</p>
+                    <p class="reviewer">- The Rodriguez Family, November 30, 2024</p>
+                </div>
+
+                <div class="review-card">
+                    <h3>Hidden Gem with Exquisite Flavors</h3>
+                    <p>"Don't let the unassuming exterior fool you – this place is a culinary treasure! The chef clearly has a passion for authentic Italian cooking."</p>
+                    <p class="reviewer">- Ethan Bell, March 28, 2025</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

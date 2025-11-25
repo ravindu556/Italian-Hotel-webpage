@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    background-color: beige;
+    color: #eee;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.share-experience {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: #ddd;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background-color: #444;
+    color: #eee;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="currentColor" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: yellow;
+    color: #333;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: orange;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: orange;
+}
+
+.customer-reviews {
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.review-card {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.review-card h3 {
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    color: #ddd;
+    margin-bottom: 8px;
+}
+
+.reviewer {
+    color: #aaa;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: right;
+}
